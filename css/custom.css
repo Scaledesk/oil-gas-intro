@@ -3,11 +3,13 @@
 }
 
 .dragslider h2{
-    font-size: 6em;
+    font-size: 5.5em;
 }
 
 .dragslider h2 span {
     padding-top: 0.6em;
+     line-height: 1.2;
+    
 }
 
 .pages .content h2{
@@ -20,4 +22,22 @@
 
 .img-wrap{
     background: #2f4f4f;
+    background: #000;
+}
+
+.pages .content h2 span{
+    color: #748182;
+}
+
+@media screen and (max-width: 63.125em) {
+	.dragslider h2 {
+		font-size: 4em;
+	}
+	.pages .content {
+		font-size: 100%;
+	}
+	.pages .content h2 {
+		font-size: 2em;
+	}
+
 }
