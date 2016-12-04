@@ -13,3 +13,11 @@
 .pages .content h2{
     font-size: 4em;
 }
+
+.p-b-20{
+    padding-bottom: 20px !important ;
+}
+
+.img-wrap{
+    background: #2f4f4f;
+}
